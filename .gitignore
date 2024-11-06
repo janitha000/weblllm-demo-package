@@ -1,0 +1,4 @@
+node_modules/
+parcel-cache/
+examples/media-pipeline/.parcel-cache/
+examples/web-llm/.parcel-cache/

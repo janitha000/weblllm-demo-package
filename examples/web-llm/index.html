@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    webLLMGlobal = {};
+  </script>
+  <body>
+    <h2>WebLLM Test Page</h2>
+    <br />
+    <br />
+    <label id="init-label"> </label>
+
+    <h3>Prompt</h3>
+    <label id="prompt-label">
+      Parse the html given and extract the text from it. Return the text using
+      json format {claimId: string, claimText: string}
+    </label>
+
+    <h3>Input</h3>
+    <label id="input-label"> </label>
+
+    <h3>Response</h3>
+    <label id="generate-label"> </label>
+    <br />
+    <label id="stats-label"> </label>
+
+    <script type="module" src="./index.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "web-llm-demo",
+  "version": "1.0.0",
+  "description": "Simple demo on web-llm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Janitha Tennakoon",
+  "license": "ISC",
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.74"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
